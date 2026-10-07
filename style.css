@@ -559,34 +559,26 @@ button:focus-visible {
 
 .container {
   
-  
   border-radius: 5px;
-
   background-color: #f2f2f2;
   padding: 10px;
 
 }
 
 .container h1 {
-  display: flex;
-  
+  display: flex;  
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   background-color: #ccc;
   padding: 20px;
-
-
 }
 
 .container form {
   
   margin: 0;
   background-color: #ccc;
-  display: grid;
-  place-items: center;
-  justify-content: center;
-
+  ;
 }
 
 input[type=text],
@@ -615,10 +607,6 @@ input[type=submit] {
 
 input[type=email] {
   width: 50%;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  place-items: center;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 20px;
