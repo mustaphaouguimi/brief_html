@@ -8,10 +8,9 @@
 
 html {
   scroll-behavior: smooth;
-  @media screen {
-    
-  }
-  
+
+  @media screen {}
+
 }
 
 body {
@@ -24,7 +23,10 @@ body {
   grid-template-columns: 1fr;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Poppins', Arial, sans-serif;
   color: #0F1B2D;
 }
@@ -220,7 +222,7 @@ button:focus-visible {
 
 .hero {
   padding: 64px 0 96px;
-  
+
 }
 
 .hero-contenu {
@@ -281,7 +283,7 @@ button:focus-visible {
   color: #0F1B2D;
 }
 
-.chiffre + .chiffre {
+.chiffre+.chiffre {
   border-left: 1px solid #E5E7EB;
 }
 
@@ -370,7 +372,7 @@ button:focus-visible {
   overflow: hidden;
 }
 
-.carte-programme > img {
+.carte-programme>img {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -429,7 +431,7 @@ button:focus-visible {
   color: #0F1B2D;
 }
 
-.programme-corps h3 + p {
+.programme-corps h3+p {
   margin-bottom: 16px;
 }
 
@@ -555,43 +557,85 @@ button:focus-visible {
   color: #94A3B8;
 }
 
-
-.container h1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.container {
+  
+  
   border-radius: 5px;
-  background-color: #E2E8F0;
-  padding: 20px;
+
+  background-color: #f2f2f2;
+  padding: 10px;
 
 }
-input[type=text] textarea {
-  width: 100%;
+
+.container h1 {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #ccc;
+  padding: 20px;
+
+
+}
+
+.container form {
+  
+  margin: 0;
+  background-color: #ccc;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+
+}
+
+input[type=text],
+textarea {
+  width: 50%;
   padding: 12px;
-  padding-bottom: 12px;
-  border: 1px solid #FF6B2C;
-  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 20px;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
 }
-input[type=submit]:hover {
+
+input[type=submit] {
+  width: 50%;
   background-color: #FF6B2C;
-}
-input[type=submet]{
-  background-color: #C2410C; 
   color: white;
+  display: grid;
+  justify-content: start;
+  align-items: center;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
-.container form{
-  text-align: center;
+input[type=email] {
+  width: 50%;
+  display: grid;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
-  margin: 5px;
-  padding: 5px;
+  place-items: center;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #FF6B2C;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
