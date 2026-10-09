@@ -1,0 +1,34 @@
+Documentation — Apprentissage HTML et CSS
+1. Introduction
+Cette documentation présente les notions que j'ai apprises en HTML et CSS, ainsi que leur application dans
+notre projet web.
+L'objectif est de comprendre comment structurer une page web avec HTML et comment améliorer son
+apparence avec CSS.
+2. HTML — Structure d'une page web#
+HTML (HyperText Markup Language) est un langage de balisage qui permet de structurer le contenu d'une
+page web.
+Les notions apprises
+● Structure de base HTML : <!DOCTYPE html>, <html>, <head> et <body>.
+● Titres et paragraphes : utilisation des balises <h1> à <h6> et <p>.
+● Liens : utilisation de la balise <a> pour naviguer entre les pages.
+● Images : utilisation de la balise <img>.
+● Listes : utilisation de <ul>, <ol> et <li>.
+● Formulaires : utilisation de <form>, <input>, <label> et <textarea>.
+● Boutons : utilisation de <button> et de <input type='submit'>.
+● Balises sémantiques : utilisation de <header>, <nav>, <main>, <section> et <footer>.
+Application pratique
+J'ai utilisé HTML pour créer la structure des pages de notre projet, notamment les pages Accueil, À propos et
+Contact.
+La page Contact permet notamment de structurer un formulaire avec différents champs de saisie.
+3. CSS — Mise en forme des pages web
+CSS (Cascading Style Sheets) permet de personnaliser l'apparence des pages HTML.
+Les notions apprises
+● Sélecteurs CSS : sélection des éléments HTML à modifier.
+● Couleurs et arrière-plans : propriétés color et background-color.
+● Typographie : propriétés font-size, font-family et font-weight.
+● Dimensions : propriétés width et height.
+● Espacement : propriétés margin et padding.
+● Bordures : propriétés border et border-radius.
+● Alignement : utilisation de text-align.
+● Flexbox : utilisation de display: flex, justify-content et align-items.
+● Classes et identifiants : utilisation de .class et #id.

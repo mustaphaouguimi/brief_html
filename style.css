@@ -563,7 +563,7 @@ button:focus-visible {
   align-items: center;
   border-radius: 5px;
   background-color: #f2f2f2;
-  margin: 15px;
+  margin: 10px;
   padding: 15px;
 }
 
@@ -577,9 +577,6 @@ button:focus-visible {
 .contact{
   display: grid;
   place-items: center;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
   height: 200px;
 }
 .contact h1{
@@ -587,18 +584,20 @@ button:focus-visible {
   margin-right: 20px;
   justify-content: center;
   align-items: center;
-  display: inline;
+  
   
 }
 
 .container form { 
   padding: 1px;
   width: 50%;
-  height: 250;
+  height: 150;
   margin: 0;
   background-color: #ccc;
   border-radius: 10px;
-  border: solid #FF6B2C ;
+  border: 2px solid #FF6B2C;
+  box-shadow: 0 10px 25px rgba(255, 107, 44, 0.2);
+
 }
 
 input[type=text],
@@ -609,13 +608,13 @@ textarea {
   border-radius: 20px;
   margin-top: 6px;
   margin-bottom: 16px;
+  resize: vertical;
   
 }
 input[type=submit] {
   width: 50%;
   background-color: #FF6B2C;
-  color: white;
-  
+  color: white; 
   padding: 12px 20px;
   border: none;
   border-radius: 20px;
@@ -638,9 +637,3 @@ input[type=submit]:hover {
 
 
 
-@media screen and (max-width: 600px) {
-  input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
